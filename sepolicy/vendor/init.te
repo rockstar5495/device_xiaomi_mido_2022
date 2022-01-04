@@ -1,4 +1,4 @@
-allow init wcnss_device:chr_file write;
+allow init self:capability sys_nice;
 
 # Allow init to bind mount gps_debug.conf
 allow init system_file:file mounton;
@@ -9,8 +9,11 @@ allow init adsprpcd_file:filesystem { getattr mount relabelfrom relabelto };
 # Firmware
 allow init firmware_file:filesystem getattr;
 
-# LEDs
+# Leds
 allow init sysfs_leds:lnk_file read;
 
-# Allow init to chown/chmod on pseudo files in /sys
-allow init sysfs_type:file { setattr };
+# Power
+allow init sysfs_battery_supply:file setattr;
+
+# Wifi
+allow init wcnss_device:chr_file write;
