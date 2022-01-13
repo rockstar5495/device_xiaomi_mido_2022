@@ -47,3 +47,5 @@ allow hal_fingerprint_default sdcardfs:file { getattr };
 
 # Allow fp to read boot status prop
 get_prop(hal_fingerprint_default, boot_status_prop)
+
+allow hal_fingerprint_default default_prop:file { getattr  open  read };
