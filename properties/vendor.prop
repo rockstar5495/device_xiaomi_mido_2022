@@ -110,6 +110,7 @@ vendor.rild.libargs=-d /dev/smd0
 
 # Radio (IMS)
 service.qti.ims.enabled=1
+persist.dbg.ims_volte_enable=1
 
 # SOC
 ro.soc.manufacturer=QTI
