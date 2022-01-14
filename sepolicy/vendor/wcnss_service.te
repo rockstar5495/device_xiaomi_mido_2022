@@ -8,3 +8,8 @@ allow wcnss_service property_socket:sock_file write;
 allow wcnss_service init:unix_stream_socket connectto;
 
 allow wcnss_service system_prop:file { getattr  open  read };
+
+set_prop(wcnss_service, vendor_set_wlan_prop);
+set_prop(wcnss_service, vendor_set_wlan_prop);
+get_prop(wcnss_service, wcnss_prop);
+get_prop(wcnss_service, vendor_nv_prop);
