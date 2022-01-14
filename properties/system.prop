@@ -11,6 +11,12 @@ persist.sys.usb.config=mtp,adb
 ro.config.media_vol_steps=25
 vendor.fastrpc.disable.adsprpcd_sensorspd.daemon=1
 
+# Bluetooth
+persist.vendor.btstack.enable.lpa=true
+persist.vendor.btstack.enable.twsplus=true
+persist.vendor.bt.a2dp.hal.implementation=true
+ro.bluetooth.library_name=libbluetooth_qti.so
+
 # Camera
 persist.camera.gyro.android=0
 persist.camera.gyro.disable=1
