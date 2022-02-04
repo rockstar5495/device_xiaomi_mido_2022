@@ -67,7 +67,6 @@ persist.camera.eis.enable=1
 
 # Cne
 persist.vendor.cne.feature=1
-persist.vendor.mwqem.enable=1
 persist.vendor.sys.cnd.iwlan=1
 
 # Display
