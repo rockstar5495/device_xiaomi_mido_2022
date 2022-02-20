@@ -22,23 +22,22 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product, device/xiaomi/mido/device.mk)
 
 # Inherit some common OctaviOS stuff.
-$(call inherit-product, vendor/octavi/config/common_full_phone.mk)
+$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
 # Mido bootanimation flag
 TARGET_BOOT_ANIMATION_RES := 1080
 
 # Octavi
-OCTAVI_BUILD_TYPE := Official
+RAVEN_BUILD_TYPE := UnOfficial
 TARGET_GAPPS_ARCH := arm64
 TARGET_SCREEN_DENSITY := 400
-TARGET_FACE_UNLOCK_SUPPORTED := true
+TARGET_FACE_UNLOCK_SUPPORTED := false
 TARGET_SUPPORTS_GOOGLE_RECORDER := true
 TARGET_INCLUDE_LIVE_WALLPAPERS := false
-USE_PIXEL_CHARGER := true
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := mido
-PRODUCT_NAME := octavi_mido
+PRODUCT_NAME := aosp_mido
 PRODUCT_BRAND := Xiaomi
 PRODUCT_MODEL := Redmi Note 4
 PRODUCT_MANUFACTURER := Xiaomi
