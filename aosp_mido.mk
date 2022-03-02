@@ -21,15 +21,13 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from mido device
 $(call inherit-product, device/xiaomi/mido/device.mk)
 
-# Inherit some common OctaviOS stuff.
+# Inherit some common Pixel stuff.
 $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
 # Mido bootanimation flag
 TARGET_BOOT_ANIMATION_RES := 1080
 
-# Octavi
-RAVEN_BUILD_TYPE := UnOfficial
-RAVEN_MAINTAINER := rockstar1995
+# Pixel
 TARGET_GAPPS_ARCH := arm64
 TARGET_SCREEN_DENSITY := 400
 TARGET_FACE_UNLOCK_SUPPORTED := true
