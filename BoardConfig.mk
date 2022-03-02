@@ -122,9 +122,9 @@ TARGET_QCOM_NO_FM_FIRMWARE := true
 BOARD_VENDOR_QCOM_GPS_LOC_API_HARDWARE := $(TARGET_BOARD_PLATFORM)
 
 # HALS
-SRC_AUDIO_HAL_DIR := hardware/qcom-caf/msm8996/audio
-SRC_DISPLAY_HAL_DIR := hardware/qcom-caf/msm8996/display
-SRC_MEDIA_HAL_DIR := hardware/qcom-caf/msm8996/media
+SRC_AUDIO_HAL_DIR := hardware/qcom-caf/msm8996-LA.UM.9.6.2.r1-04100-89xx.0/audio
+SRC_DISPLAY_HAL_DIR := hardware/qcom-caf/msm8996-LA.UM.9.6.2.r1-04100-89xx.0/display
+SRC_MEDIA_HAL_DIR := hardware/qcom-caf/msm8996-LA.UM.9.6.2.r1-04100-89xx.0/media
 
 # HIDL
 DEVICE_FRAMEWORK_MANIFEST_FILE := $(DEVICE_PATH)/framework_manifest.xml
