@@ -1,6 +1,3 @@
-# Dolby
-type vendor_dolby_loglevel_prop, property_type;
-
 # Wlan
 vendor_internal_prop(vendor_set_wlan_prop)
 vendor_internal_prop(vendor_nv_prop)
