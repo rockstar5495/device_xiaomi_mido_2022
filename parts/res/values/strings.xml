@@ -18,19 +18,6 @@
     <!-- Ambient settings -->
     <string name="ambient_enable">Use ambient display</string>
 
-    <!-- Audio amplification -->
-    <string name="audio_title">Audio Amplification</string>
-    <string name="audio_summary">Sound control settings</string>
-    <string name="headphone_gain">Headphone gain</string>
-    <string name="microphone_gain">Microphone gain</string>
-    <string name="speaker_gain">Speaker gain</string>
-
-    <!-- Custom seekbar -->
-    <string name="custom_seekbar_value">Value: <xliff:g id="v">%s</xliff:g></string>
-    <string name="custom_seekbar_default_value">Default</string>
-    <string name="custom_seekbar_default_value_to_set">Default value: <xliff:g id="v">%s</xliff:g>\nLong press to set</string>
-    <string name="custom_seekbar_default_value_is_set">Default value is set</string>
-
     <!-- Clear Speaker -->
     <string name="clear_speaker_title">Clear speaker</string>
     <string name="clear_speaker_summary">Play a 30-second audio to clear the speaker</string>

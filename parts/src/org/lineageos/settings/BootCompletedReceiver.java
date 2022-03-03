@@ -24,8 +24,6 @@ import android.util.Log;
 import android.provider.Settings;
 
 import org.lineageos.settings.doze.DozeUtils;
-import org.lineageos.settings.preferences.FileUtils;
-import org.lineageos.settings.soundcontrol.SoundControlSettings;
 
 public class BootCompletedReceiver extends BroadcastReceiver {
 
@@ -39,12 +37,5 @@ public class BootCompletedReceiver extends BroadcastReceiver {
             DozeUtils.startService(context);
         }
 
-    int gain = Settings.Secure.getInt(context.getContentResolver(),
-                SoundControlSettings.PREF_HEADPHONE_GAIN, 4);
-        FileUtils.setValue(SoundControlSettings.HEADPHONE_GAIN_PATH, gain + " " + gain);
-        FileUtils.setValue(SoundControlSettings.MICROPHONE_GAIN_PATH, Settings.Secure.getInt(context.getContentResolver(),
-                SoundControlSettings.PREF_MICROPHONE_GAIN, 0));
-        FileUtils.setValue(SoundControlSettings.SPEAKER_GAIN_PATH, Settings.Secure.getInt(context.getContentResolver(),
-                SoundControlSettings.PREF_SPEAKER_GAIN, 0));
     }
 }
