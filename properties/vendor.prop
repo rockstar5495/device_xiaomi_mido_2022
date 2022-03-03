@@ -150,23 +150,11 @@ persist.backup.ntpServer=0.pool.ntp.org
 # Tcp
 net.tcp.2g_init_rwnd=10
 
-# Usb
-persist.vendor.usb.config.extra=none
-
 # Wifi
 wifi.interface=wlan0
 
 # Wifi-Display
 persist.sys.wfd.virtual=0
-
-# Dirac algo tsx 9/12
-persist.dirac.acs.controller=qem
-persist.dirac.acs.storeSettings=1
-persist.dirac.acs.ignore_error=1
-
-# Dirac headset effect
-ro.audio.soundfx.dirac=true
-persist.audio.dirac.speaker=true
 
 # Priv-app permission
 ro.control_privapp_permissions=false
