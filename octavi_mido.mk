@@ -35,7 +35,8 @@ TARGET_FACE_UNLOCK_SUPPORTED := true
 TARGET_SUPPORTS_GOOGLE_RECORDER := true
 TARGET_INCLUDE_LIVE_WALLPAPERS := false
 USE_PIXEL_CHARGER := true
-
+TARGET_SUPPORTS_QUICK_TAP := true
+-
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := mido
 PRODUCT_NAME := octavi_mido
