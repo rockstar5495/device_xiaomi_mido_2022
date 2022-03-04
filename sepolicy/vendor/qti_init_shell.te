@@ -21,6 +21,3 @@ allow qti_init_shell sysfs_vibrator:file rw_file_perms;
 
 allow qti_init_shell system_data_file:dir { write };
 allow qti_init_shell system_data_file:file { getattr  open  read  setattr };
-
-# FM
-set_prop(qti_init_shell, vendor_fm_prop)
