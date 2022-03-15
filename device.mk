@@ -44,7 +44,7 @@ PRODUCT_BOARD_PLATFORM=msm8953
 BOARD_QCOM_HARDWARE=true
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
-hardware/qcom-caf/msm8996-LA.UM.9.6.2.r1-04100-89xx.0
+hardware/qcom-caf/msm8996
 
 # Permissions
 PRODUCT_COPY_FILES += \
