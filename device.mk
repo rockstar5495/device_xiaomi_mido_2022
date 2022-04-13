@@ -107,7 +107,8 @@ PRODUCT_PACKAGES += \
     libaudio-resampler \
     libqcomvisualizer \
     libqcomvoiceprocessing \
-    libqcompostprocbundle
+    libqcompostprocbundle \
+    sound_trigger.primary.msm8953:32
 
 PRODUCT_PACKAGES += \
     android.hardware.bluetooth@1.0.vendor
