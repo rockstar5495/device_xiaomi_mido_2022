@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/octavi_mido.mk
+    $(LOCAL_DIR)/pixys_mido.mk
 
 COMMON_LUNCH_CHOICES := \
-    octavi_mido-user \
-    octavi_mido-userdebug \
-    octavi_mido-eng
+    pixys_mido-user \
+    pixys_mido-userdebug \
+    pixys_mido-eng
