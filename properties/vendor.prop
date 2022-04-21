@@ -116,10 +116,6 @@ persist.dbg.ims_volte_enable=1
 ro.soc.manufacturer=QTI
 ro.soc.model=MSM8953
 
-# SoC
-ro.soc.manufacturer=Qualcomm
-ro.soc.model=MSM8953
-
 # Tcp
 net.tcp.2g_init_rwnd=10
 
