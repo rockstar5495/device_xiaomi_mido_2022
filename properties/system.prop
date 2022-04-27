@@ -116,6 +116,7 @@ persist.vendor.ims.disableDebugDataPathLogs=1
 persist.vendor.ims.disableDebugLogs=1
 persist.vendor.ims.disableSigHandler=1
 persist.vendor.ims.disableQXDMLogs=1
+persist.rcs.supported=0
 
 # Recovery
 persist.vendor.recovery_update=false
