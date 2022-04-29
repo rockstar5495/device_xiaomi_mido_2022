@@ -117,6 +117,12 @@ persist.dbg.ims_volte_enable=1
 ro.soc.manufacturer=QTI
 ro.soc.model=MSM8953
 
+# SurfaceFlinger
+ro.surface_flinger.set_idle_timer_ms=58
+ro.surface_flinger.set_touch_timer_ms=100
+ro.surface_flinger.set_display_power_timer_ms=1000
+ro.surface_flinger.support_kernel_idle_timer=true
+
 # Tcp
 net.tcp.2g_init_rwnd=10
 
