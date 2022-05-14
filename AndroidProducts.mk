@@ -14,9 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/octavi_mido.mk
+    $(LOCAL_DIR)/blaze_mido.mk
 
 COMMON_LUNCH_CHOICES := \
-    octavi_mido-user \
-    octavi_mido-userdebug \
-    octavi_mido-eng
+    blaze_mido-user \
+    blaze_mido-userdebug \
+    blaze_mido-eng
