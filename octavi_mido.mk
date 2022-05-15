@@ -33,6 +33,7 @@ TARGET_GAPPS_ARCH := arm64
 TARGET_SCREEN_DENSITY := 400
 TARGET_INCLUDE_LIVE_WALLPAPERS := false
 TARGET_FACE_UNLOCK_SUPPORTED := true
+TARGET_SUPPORTS_QUICK_TAP := true
 
 # Device identifier. This must come after all inclusions
 PRODUCT_DEVICE := mido
