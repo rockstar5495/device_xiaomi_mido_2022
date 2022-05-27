@@ -114,8 +114,8 @@ service.qti.ims.enabled=1
 persist.dbg.ims_volte_enable=1
 
 # SOC
-ro.soc.manufacturer=QTI
-ro.soc.model=MSM8953
+ro.soc.manufacturer=Qualcomm
+ro.soc.model=SDM450
 
 # Tcp
 net.tcp.2g_init_rwnd=10
