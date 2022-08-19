@@ -18,9 +18,6 @@ allow init sysfs_battery_supply:file setattr;
 # Wifi
 allow init wcnss_device:chr_file write;
 
-# Allow init to chown/chmod on pseudo files in /sys
-allow init sysfs_type:file { setattr };
-
 allow init vendor_file:file { execute  execute_no_trans };
 allow init servicemanager:binder { call  transfer };
 allow init hwservicemanager:binder { call };
